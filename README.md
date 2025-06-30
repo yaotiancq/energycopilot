@@ -57,6 +57,7 @@ This Lambda is deployed as a container to support local models, file-based vecto
 - IAM – controls access between services
 - CloudWatch – logs Lambda activity and aids debugging
 - EventBridge – triggers scheduled warmup events to keep inference Lambda warm
+- EC2 - deploy Qdrant database
 
 ---
 
