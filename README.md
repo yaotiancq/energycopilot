@@ -4,19 +4,19 @@
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🧠 **RAG-based GPT answering** with local FAISS + HuggingFace embeddings
-- 📡 **WebSocket streaming** via API Gateway + ZIP Lambda
-- 📬 **Asynchronous task queue** using Amazon SQS
-- 🔗 **WebSocket connection tracking** using DynamoDB
-- 🗂 **Semantic caching** with Qdrant (deployed on EC2)
-- 🧼 **Clean UI** using React + Tailwind, with Markdown rendering
-- ☁️ **Fully serverless backend**, frontend hosted on **S3 + CloudFront**
+-  **RAG-based GPT answering** with local FAISS + HuggingFace embeddings
+-  **WebSocket streaming** via API Gateway + ZIP Lambda
+-  **Asynchronous task queue** using Amazon SQS
+-  **WebSocket connection tracking** using DynamoDB
+-  **Semantic caching** with Qdrant (deployed on EC2)
+-  **Clean UI** using React + Tailwind, with Markdown rendering
+-  **Fully serverless backend**, frontend hosted on **S3 + CloudFront**
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 [ React Frontend (S3) ]
 ⇅ WebSocket
@@ -33,7 +33,7 @@
 ⇓
 [ GPT Response (streamed token-by-token via WebSocket) ]
 
-## 📁 Project Structure (Key Parts)
+##  Project Structure (Key Parts)
 ```text
 energycopilot/
 ├── chat-ui/                  # Frontend React + Vite application
@@ -61,13 +61,13 @@ energycopilot/
 
 ---
 
-## 🚀 Deployment Guide
+##  Deployment Guide
 
 EnergyCopilot consists of four independently deployed components:
 
 ---
 
-### 1️⃣ Frontend (S3 + CloudFront)
+### 1. Frontend (S3 + CloudFront)
 
 The frontend is a React + Vite SPA hosted on S3 with optional CloudFront integration.
 
@@ -84,7 +84,7 @@ Enable static website hosting in S3
 Set index.html as the default root document
 Connect to CloudFront and configure a cache policy
 
-2️⃣ WebSocket Management (ZIP-based Lambda)
+### 2. WebSocket Management (ZIP-based Lambda)
 Handles $connect, $disconnect, and message routes in API Gateway, and sends user messages to SQS. Stores WebSocket connection IDs in DynamoDB.
 
 Package the Lambda
@@ -106,7 +106,7 @@ message → your Lambda function
 
 Deploy and note the WebSocket URL
 
-3️⃣ Inference Service (Container-based Lambda)
+### 3. Inference Service (Container-based Lambda)
 This Lambda is triggered by SQS, runs the RAG pipeline, and streams the GPT response token-by-token back to the client via WebSocket.
 
 Build and Push the Docker Image
@@ -120,7 +120,7 @@ Configure environment variables
 Configure Trigger
 Add the same SQS queue as an event source trigger to this Lambda
 
-4️⃣ Qdrant Vector Database (EC2)
+### 4. Qdrant Vector Database (EC2)
 Used as a semantic cache to store and retrieve previous question embeddings.
 
 Deploy on EC2
