@@ -14,6 +14,45 @@
 -  **Clean UI** using React + Tailwind, with Markdown rendering
 -  **Fully serverless backend**, frontend hosted on **S3 + CloudFront**
 
+## How This Application Uses AWS Lambda
+This project uses two separate AWS Lambda functions, each with a distinct responsibility and deployment method:
+
+### 1. WebSocket Handler (ZIP-based Lambda)
+Purpose: Handles WebSocket events triggered by API Gateway ($connect, $disconnect, message)
+
+Deployment: Packaged as a lightweight ZIP archive
+
+Responsibilities:
+
+On $connect: Stores the connectionId in DynamoDB
+
+On $disconnect: Removes the connectionId from DynamoDB
+
+On message: Extracts the user query and sends it to an SQS queue for processing
+
+Connected Services: API Gateway WebSocket API, DynamoDB, SQS
+
+This Lambda is lightweight and optimized for routing and state management, ensuring fast response to connection events without blocking.
+
+### 2. Inference Service (Container-based Lambda)
+Purpose: Performs actual model inference and streams responses back to the client
+
+Deployment: Packaged as a Docker container and hosted in AWS Lambda
+
+Responsibilities:
+
+Triggered by SQS events (pushed by the WebSocket handler)
+
+Loads local FAISS index and embedding model
+
+Performs retrieval-augmented generation (RAG) using LangChain + OpenAI/GPT
+
+Streams the response token-by-token via ApiGatewayManagementApi back to the correct connectionId
+
+Connected Services: SQS, EC2-hosted Qdrant, API Gateway (WebSocket), ECR (for container image)
+
+This Lambda is compute-heavy and runs in an isolated container environment to support custom models, local file storage, and consistent performance.
+
 ---
 
 ##  Architecture
@@ -45,6 +84,7 @@ energycopilot/
 ├── websocket_lambda/         # ZIP-based Lambda for WebSocket management
 │   ├── websocket_handler.py  # Handles $connect/$disconnect/message routes
 │   └── build_websocket_zip.sh # Packaging script for deployment
+|   └── requirements.txt      # dependency
 │
 ├── lambda_handler.py         # Entry point for container-based inference Lambda
 ├── rag_stream.py             # Embedding, retrieval, and GPT streaming logic
@@ -55,6 +95,7 @@ energycopilot/
 ├── embed/                    # Preprocessing script for document embeddings
 │
 ├── Dockerfile                # Dockerfile for building container Lambda image
+├── requirements.txt          # dependency
 ├── build_and_push.sh         # Script to build and push image to ECR
 
 ```
@@ -66,8 +107,13 @@ energycopilot/
 EnergyCopilot consists of four independently deployed components:
 
 ---
+### 1. Prepare S3, SQS, dynamoDB, Event Bridge
+- S3 for frontend host
+- SQS for receiving websocket massage
+- DynamoDB for store websocket connection status
+- Event Bridge for warmup beat
 
-### 1. Frontend (S3 + CloudFront)
+### 2. Frontend (S3 + CloudFront)
 
 The frontend is a React + Vite SPA hosted on S3 with optional CloudFront integration.
 
@@ -84,7 +130,7 @@ aws s3 sync dist/ s3://your-s3-bucket-name/ --delete
 - Set index.html as the default root document
 - Connect to CloudFront and configure a cache policy
 
-### 2. WebSocket Management (ZIP-based Lambda)
+### 3. WebSocket Management (ZIP-based Lambda)
 Handles $connect, $disconnect, and message routes in API Gateway, and sends user messages to SQS. Stores WebSocket connection IDs in DynamoDB.
 
 Package the Lambda
@@ -105,7 +151,7 @@ Create a WebSocket API with the following routes, and connect to websocket lambd
 
 Deploy and note the WebSocket URL
 
-### 3. Inference Service (Container-based Lambda)
+### 4. Inference Service (Container-based Lambda)
 This Lambda is triggered by SQS, runs the RAG pipeline, and streams the GPT response token-by-token back to the client via WebSocket.
 
 Build and Push the Docker Image
@@ -122,7 +168,7 @@ Add the same SQS queue as an event source trigger to this Lambda
 Configure Warmup event
 Schedule an event on Event Bridge to keep inference service container alive
 
-### 4. Qdrant Vector Database (EC2)
+### 5. Qdrant Vector Database (EC2)
 Used as a semantic cache to store and retrieve previous question embeddings.
 
 Deploy on EC2
