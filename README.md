@@ -22,10 +22,10 @@ Purpose: Handles WebSocket events triggered by API Gateway ($connect, $disconnec
 Deployment: Packaged as a lightweight ZIP archive
 
 Responsibilities:
-On $connect: Stores the connectionId in DynamoDB
-On $disconnect: Removes the connectionId from DynamoDB
-On message: Extracts the user query and sends it to an SQS queue for processing
-Connected Services: API Gateway WebSocket API, DynamoDB, SQS
+- On $connect: Stores the connectionId in DynamoDB
+- On $disconnect: Removes the connectionId from DynamoDB
+- On message: Extracts the user query and sends it to an SQS queue for processing
+- Connected Services: API Gateway WebSocket API, DynamoDB, SQS
 
 This Lambda is lightweight and optimized for routing and state management, ensuring fast response to connection events without blocking.
 
@@ -34,11 +34,11 @@ Purpose: Performs actual model inference and streams responses back to the clien
 Deployment: Packaged as a Docker container and hosted in AWS Lambda
 
 Responsibilities:
-Triggered by SQS events (pushed by the WebSocket handler)
-Loads local FAISS index and embedding model
-Performs retrieval-augmented generation (RAG) using LangChain + OpenAI/GPT
-Streams the response token-by-token via ApiGatewayManagementApi back to the correct connectionId
-Connected Services: SQS, EC2-hosted Qdrant, API Gateway (WebSocket), ECR (for container image)
+- Triggered by SQS events (pushed by the WebSocket handler)
+- Loads local FAISS index and embedding model
+- Performs retrieval-augmented generation (RAG) using LangChain + OpenAI/GPT
+- Streams the response token-by-token via ApiGatewayManagementApi back to the correct connectionId
+- Connected Services: SQS, EC2-hosted Qdrant, API Gateway (WebSocket), ECR (for container image)
 
 This Lambda is deployed as a container to support local models, file-based vector indices, and scalable architecture. It’s well-suited for lightweight model serving and retrieval-based applications.
 
