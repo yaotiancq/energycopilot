@@ -8,7 +8,7 @@
 
 -  **RAG-based GPT answering** with local FAISS + HuggingFace embeddings
 -  **WebSocket streaming** via API Gateway + ZIP Lambda
--  **Asynchronous task queue** using Amazon SQS
+-  **Asynchronous task queue** using SQS
 -  **WebSocket connection tracking** using DynamoDB
 -  **Semantic caching** with Qdrant (deployed on EC2)
 -  **Clean UI** using React + Tailwind, with Markdown rendering
@@ -95,6 +95,7 @@ cd websocket_lambda
 - Create a Lambda function (Python 3.10+)
 - Upload websocket_handler.zip
 - Set environment variables
+- Enable role-based access to SQS and DynamoDB 
 
 Configure WebSocket API (API Gateway)
 Create a WebSocket API with the following routes, and connect to websocket lambda:
@@ -111,12 +112,15 @@ Build and Push the Docker Image
 ```bash
 ./build_and_push.sh
 ```
-Deploy
-Create a Lambda function using the pushed ECR container image
-Configure environment variables
+- Create a Lambda function using the pushed ECR container image
+- Configure environment variables
+- Enable role-based access to SQS and Socket API Gateway
 
 Configure Trigger
 Add the same SQS queue as an event source trigger to this Lambda
+
+Configure Warmup event
+Schedule an event on Event Bridge to keep inference service container alive
 
 ### 4. Qdrant Vector Database (EC2)
 Used as a semantic cache to store and retrieve previous question embeddings.
@@ -128,9 +132,7 @@ docker run -d \
   -v $(pwd)/qdrant_storage:/qdrant/storage \
   qdrant/qdrant
 ```
-
-Notes
-Ensure port 6333 is open in EC2 security group
+- Ensure port 6333 is open in EC2 security group
 
 
 
