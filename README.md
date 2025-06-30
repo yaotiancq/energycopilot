@@ -18,17 +18,17 @@
 
 ##  Architecture
 ```text
-                                                  [ React Frontend (S3) ]
-                                                            ⇅ WebSocket
-                                                  [ API Gateway (WebSocket) ]
-                                                            ⇅
-                                                  [ WebSocketHandler (ZIP Lambda) ]  →  DynamoDB (connectionId tracking)
-                                                            ⇓
-                                                  [ Question Queue (SQS) ]
-                                                            ⇓
-                                                  [ RAG Inference (Container Lambda) ] ⇄  [ Qdrant Vector DB (on EC2) ] + [ FAISS Index ]   
-                                                            ⇅
-                                                  [ GPT Response (streamed token-by-token via WebSocket) ]
+                                            [ React Frontend (S3) ]
+                                                      ⇅ WebSocket
+                                            [ API Gateway (WebSocket) ]
+                                                      ⇅
+                                            [ WebSocketHandler (ZIP Lambda) ]  →  DynamoDB (connectionId tracking)
+                                                      ⇓
+                                            [ Question Queue (SQS) ]
+                                                      ⇓
+                                            [ RAG Inference (Container Lambda) ] ⇄  [ Qdrant Vector DB (on EC2) ] + [ FAISS Index ]   
+                                                      ⇅
+                                            [ GPT Response (streamed token-by-token via WebSocket) ]
 ```
 
 ##  Project Structure (Key Parts)
