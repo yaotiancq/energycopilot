@@ -1,6 +1,6 @@
 # ⚡️ EnergyCopilot
 
-**EnergyCopilot** is a real-time, serverless AI assistant that answers energy-related questions using a Retrieval-Augmented Generation (RAG) architecture with streaming token output over WebSocket. It integrates WebSocket management (via a lightweight ZIP-based Lambda) with scalable inference (via a containerized RAG pipeline), enabling fast, contextual Q&A grounded in source documents.
+**EnergyCopilot** is a real-time, serverless AI assistant that answers energy-related questions using a Retrieval-Augmented Generation (RAG) architecture with streaming token output. It integrates WebSocket management (via a lightweight ZIP-based Lambda) with scalable inference (via a containerized RAG pipeline), enabling fast, contextual Q&A grounded in source documents.
 
 ---
 
