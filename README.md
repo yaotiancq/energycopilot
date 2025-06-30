@@ -34,6 +34,7 @@
 [ GPT Response (streamed token-by-token via WebSocket) ]
 
 ## 📁 Project Structure (Key Parts)
+```text
 energycopilot/
 ├── chat-ui/ # React + Tailwind frontend
 ├── websocket_lambda/ # ZIP Lambda for WebSocket control and SQS enqueue
@@ -48,7 +49,7 @@ energycopilot/
 ├── qdrant_cache.py # Qdrant-based semantic cache (connects to EC2)
 ├── embed/ # One-time document embedder
 ├── faiss_index/ # FAISS index and associated metadata
-
+text
 
 ---
 
