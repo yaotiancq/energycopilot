@@ -42,6 +42,19 @@ Responsibilities:
 
 This Lambda is deployed as a container to support local models, file-based vector indices, and scalable architecture. It’s well-suited for lightweight model serving and retrieval-based applications.
 
+
+** AWS Services Used
+- Lambda – handles WebSocket events and performs model inference (ZIP + container)
+- API Gateway – enables real-time communication with the WebSocket client
+- SQS – queues user questions for async processing
+- DynamoDB – stores active WebSocket connection IDs
+- S3 – hosts the frontend (React + Vite)
+- CloudFront – serves the frontend globally with low latency
+- ECR – stores the container image for the inference Lambda
+- IAM – controls access between services
+- CloudWatch – logs Lambda activity and aids debugging
+- EventBridge – triggers scheduled warmup events to keep inference Lambda warm
+
 ---
 
 ##  Architecture
