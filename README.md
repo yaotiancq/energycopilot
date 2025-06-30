@@ -17,9 +17,8 @@
 ---
 
 ##  Architecture
-
-```text
 <div align="center">
+```text
 [ React Frontend (S3) ]
           ⇅ WebSocket
 [ API Gateway (WebSocket) ]
@@ -35,10 +34,11 @@
 ⇓
 [ GPT Response (streamed token-by-token via WebSocket) ]
 ```
+</div>
 
 ##  Project Structure (Key Parts)
 ```text
-</div>
+
 
 energycopilot/
 ├── chat-ui/                  # Frontend React + Vite application
