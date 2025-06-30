@@ -1,0 +1,11 @@
+langchain
+langchain-openai
+langchain-community
+langchain-huggingface
+sentence-transformers>=2.2.2
+faiss-cpu==1.7.4
+qdrant-client==1.14.3
+numpy<2.0.0
+transformers>=4.39.0
+torch==2.1.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu

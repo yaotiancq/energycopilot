@@ -1,0 +1,92 @@
+SPECIAL AGREEMENT FOR ELECTRICAL STANDBY SERVICE (Form No. 79-285 | Advice 4773-G/6976-E | June 2023)
+
+This is an agreement between Pacific Gas and Electric Company (PG&E), a California corporation, and ___________________________ (Customer), a ___________________________. This agreement will be herein referred to as "Agreement".
+
+Customer has requested PG&E to provide standby service at Customer's premises at _________________________, County of ___________, California, under one of the standby options designated below:
+
+Option 1 – PG&E Standby Through Non-PG&E Supply Facilities
+Standby service for customers whose supply requirements would otherwise be delivered through PG&E-owned facilities (including ISO-controlled transmission facilities), but are instead regularly and completely supplied through facilities not owned by PG&E.
+The non-utility owned generating facilities have a total rated capacity of approximately _________ kVA, or _______ kW.
+All PG&E power deliveries will be made under Schedule S or Schedule SB.
+
+Option 2 – PG&E Standby When Service is from Another Utility
+Standby service for customers who regularly take electric service from another public utility but desire PG&E to reserve capacity.
+Customer is supplied regular service from another utility and may be alternately served by PG&E using a double-throw switch.
+PG&E and the other utility must both consent.
+Customer’s max demand is ______ kW.
+This option is closed to all new customers after January 19, 2001.
+
+Option 3 – PG&E Standby for Non-Continuous/Irregular PG&E Supply
+For customers who require PG&E to reserve capacity and deliver electricity on an irregular or non-continuous basis.
+Examples:
+a) site partially powered by non-utility generation < 100% of demand,
+b) qualifies for Option 4 but lacks proper metering,
+c) has irregular-use electrical equipment.
+Capacity = ______ kVA or ______ kW.
+PG&E power billed under applicable rate schedule + selected Special Conditions of Schedule S or SB.
+
+Option 4 – PG&E Supplemental (Back-up and Maintenance) Standby Service
+For customers with at least 50% of maximum demand met by on-site generation, with metering installed by May 1, 1994 (or contract start).
+Would otherwise qualify under Schedule E-19, E-20, B-19, or B-20.
+Back-up and maintenance billed under Special Condition 7 of Schedule S or SB.
+Ordinary supplemental power (excess load) billed under normal rate schedule.
+Generation capacity = _______ kVA.
+
+Option 5 – PG&E Standby for Station Load Self-Supply
+For customers whose Station Power needs are met by on-site generation per CAISO-approved Station Power Portfolio (SPP), following Special Condition 15 of Schedule S or SB.
+
+Option 6 – Low Variability Microgrid Standby Customer
+Customer operates microgrid under Rule 21 and retail tariff, with generation/storage resources meeting Special Condition 16 (Schedule S) or 15 (Schedule SB).
+Total rated capacity = ______ kW.
+Capacity Reservation Amount = ______ kW.
+
+Terms and Conditions
+PG&E agrees to stand ready to deliver electricity on an as-needed basis under Commission-approved rates and rules.
+
+Customer grants PG&E, at no cost, rights-of-way/easements for service.
+
+Necessary service facilities will be furnished by PG&E and Customer per line extension rules and applicable agreements.
+
+PG&E retains ownership of all facilities it furnishes, even if located on Customer premises.
+
+Customer grants PG&E access for operation/maintenance at reasonable times.
+
+Standby service = ____ phase, 60 Hz, ____ volts AC.
+Delivery point = where Customer-owned conductors contact PG&E's, or as designated.
+
+Reserved capacity = _____ kW, billed monthly per Schedule S/SB.
+If prior contract exists, previously ratcheted capacity applies until ratchet expires.
+
+Customer elects to receive backup and maintenance service under: __________ Firm Service Only.
+
+If Customer operates a generator in parallel with PG&E, Customer must sign a power purchase, parallel operation, or interconnection agreement.
+Must comply with Rule 21 and applicable ISO/WSCC rules.
+
+Customer pays PG&E monthly at any PG&E office.
+
+Term: 1 year minimum, automatically renews year-to-year.
+Termination: either party may give 30 days' written notice before renewal.
+
+Agreement may be assigned to successor owner with PG&E written consent and written assumption by assignee.
+
+Agreement is subject to modification by the California Public Utilities Commission.
+
+Agreement effective upon execution by both PG&E and Customer.
+
+Signatures
+PACIFIC GAS AND ELECTRIC COMPANY
+Signature: _______________________
+Print Name: _____________________
+Title: __________________________
+Date: __________________________
+
+CUSTOMER
+Signature: _______________________
+Print Name: _____________________
+Title: __________________________
+Date: __________________________
+
+Mailing Address of PG&E:
+Pacific Gas and Electric Co.
+300 Lakeside Drive, Suite 210
+Oakland, CA 94612

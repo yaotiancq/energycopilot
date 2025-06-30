@@ -1,0 +1,299 @@
+Electric Service Provider (ESP) Service Agreement  Electric Sample Form No. 79-948
+Advice 6050-E Issued by Submitted February 4, 2021
+Decision Robert S. Kenney Effective February 4, 2021
+
+This Electric Service Provider (ESP) Service Agreement (this “Agreement”) is made and entered into
+as of this ____ day of , , by and between “_________
+______________________________________________________________________” (“ESP”),
+a _________________ ____________________________ organized and existing under the laws
+of the state of __________________, and “Pacific Gas and Electric Company” (“PG&E”), a
+corporation organized and existing under the laws of the state of California. From time to time, ESP
+and PG&E shall be individually referred to herein as a “Party” and collectively as the “Parties.”
+
+Section 1: General Description of Agreement
+1.1 This Agreement is a legally binding contract. The Parties named in this Agreement are bound by the terms set forth herein and otherwise incorporated herein by reference.
+This Agreement shall govern the business relationship between the Parties hereto by which ESP shall offer electrical energy services, including, but not limited to, account maintenance and billing services, electrical meter installation, meter reading services and/or any other services that may be approved by the California Public Utilities Commission (“CPUC”) in Direct Access transactions with customers in PG&E’s service territory (“Direct Access Services”).
+
+Each Party, by agreeing to undertake specific activities and responsibilities for or on behalf of customers, acknowledges that each Party shall relieve and discharge the other Party of the responsibility for said activities and responsibilities with respect to those customers.
+
+Except where explicitly defined herein (including Attachment A hereto), the definitions controlling this Agreement are contained in PG&E’s applicable rules or in the relevant direct access tariff.
+
+1.2 The form of this Agreement has been developed as part of the CPUC regulatory process, was intended to conform to CPUC directions, was filed and approved by the CPUC for use between PG&E and ESPs and may not be waived, altered, amended or modified, except as provided herein or in the relevant direct access tariff, or as may otherwise be authorized by the CPUC.
+
+Section 2: Representations
+2.1 Each Party represents that it is and shall remain in compliance with all applicable laws and tariffs, including applicable CPUC requirements.
+
+2.2 Each person executing this Agreement for the respective Parties expressly represents and warrants that he or she has authority to bind the entity on whose behalf this Agreement is executed.
+
+2.3 Each Party represents that:
+(a) it has the full power and authority to execute and deliver this Agreement and to perform its terms and conditions;
+(b) the execution, delivery and performance of this Agreement have been duly authorized by all necessary corporate or other action by such Party; and
+(c) this agreement constitutes such Party’s legal, valid and binding obligation, enforceable against such Party in accordance with its terms.
+
+2.4 Each Party shall:
+(a) exercise all reasonable care, diligence and good faith in the performance of its duties pursuant to this Agreement; and
+(b) carry out its duties in accordance with applicable recognized professional standards in accordance with the requirements of this Agreement.
+
+Section 3: Term of Service
+The term of this Agreement shall commence on the date of execution by both Parties hereto (the “Effective Date”) and shall terminate on the earlier of:
+(a) the date ESP informs PG&E that it is no longer operating as an ESP in PG&E’s service territory;
+(b) the earlier termination pursuant to Section 4 hereof; or
+(c) the effective date of a new ESP Service Agreement between the Parties hereto.
+
+Notwithstanding the Effective Date of this Agreement, the ESP acknowledges that it may only offer Direct Access Services to customers effective January 1, 1998, or such other date as may be directed by the CPUC for commencement of such services by ESPs, and only after it has complied with all provisions of this Agreement and PG&E’s applicable tariffs.
+
+Section 4: Events of Default and Remedy for Default
+4.1 An Event of Default under this Agreement shall include either Party's material breach of any provision of this Agreement, including those incorporated by reference herein, and failure to cure such breach within thirty (30) calendar days of receipt of written notice thereof from the non-defaulting Party; or such other period as may be provided by this Agreement or PG&E’s direct access tariff.
+
+4.2 In the event of such an Event of Default, the non-defaulting Party shall be entitled:
+(a) to exercise any and all remedies available under PG&E’s direct access tariff;
+(b) to the extent not inconsistent with PG&E’s direct access tariff, to exercise any and all remedies provided for by law or in equity; and
+(c) in the event of a material Event of Default, to terminate this Agreement upon written notice to the other Party, which shall be effective upon the receipt thereof.
+
+4.3 Breach by any Party hereto of any provision of PG&E’s direct access tariff shall be governed by applicable provisions contained therein and each Party will retain all rights granted thereunder.
+
+Section 5: Billing, Metering and Payment
+5.1 Billing options and metering services which are available to ESP shall be as described in PG&E’s direct access tariff, as stated in PG&E's Electric Rule 22. Billing and metering options applicable to a particular customer shall be designated in the Direct Access Service Request submitted by the ESP for such customer.
+
+5.2 PG&E will bill and the ESP agrees to pay PG&E for all services and products provided by PG&E in accordance with the terms and conditions set forth in PG&E’s direct access tariff, as stated in PG&E’s Electric Rule 22 and PG&E’s rate schedules. Any services provided by the ESP to PG&E shall be by separate agreement between the Parties and are not a subject of this Agreement.
+
+Section 6: Limitation of Liability
+Each Party's liability to the other Party for any loss, cost, claim, injury, liability, or expense, including reasonable attorneys’ fees, relating to or arising from any act or omission in its performance of this Agreement, shall be limited to the amount of direct damage actually incurred, except as provided for in this Section.
+
+In no event shall either Party be liable to the other Party for any indirect, special, consequential, or punitive damages of any kind whatsoever, whether in contract, tort or strict liability, except in the event of an action covered by the Indemnification provisions of Section 7 of this Agreement, in which event this Section 6 shall not be applicable.
+
+Section 7: Indemnification
+7.1 To the fullest extent permitted by law, and subject to the limitations set forth in Section 6 of this Agreement, each Party (the “Indemnifying Party”) shall indemnify and hold harmless the other Party, and its current and future direct and indirect parent companies, affiliates and their shareholders, officers, directors, employees, agents, servants and assigns (collectively, the “Indemnified Party”) and at the Indemnified Party's option, the Indemnifying Party shall defend the Indemnified Party from and against any and all claims and/or liabilities for losses, expenses, damage to property, injury to or death of any person, including, but not limited to, the Indemnified Party’s employees and its affiliates’ employees, subcontractors and subcontractors’ employees, or any other liability incurred by the Indemnified Party, including reasonable expenses, legal and otherwise, which shall include reasonable attorneys’ fees, caused wholly or in part by any negligent, grossly negligent or willful act or omission by the Indemnifying Party, its officers, directors, employees, agents or assigns arising out of this Agreement, except to the extent caused wholly or in part by any negligent, grossly negligent or willful act or omission of the Indemnified Party.
+
+7.2 If any claim covered by Section 7.1 is brought against the Indemnified Party, then the Indemnifying Party shall be entitled to participate in, and unless in the opinion of counsel for the Indemnified Party a conflict of interest between the Parties may exist with respect to such claim, assume the defense of such claim, with counsel reasonably acceptable to the Indemnified Party.
+If the Indemnifying Party does not assume the defense of the Indemnified Party, or if a conflict precludes the Indemnifying Party from assuming the defense, then the Indemnifying Party shall reimburse the Indemnified Party on a monthly basis for the Indemnified Party’s defense through separate counsel of the Indemnified Party's choice.
+Even if the Indemnifying Party assumes the defense of the Indemnified Party with acceptable counsel, the Indemnified Party, at its sole option, may participate in the defense, at its own expense, with counsel of its own choice without relieving the Indemnifying Party of any of its obligations hereunder.
+In no event shall either Party be liable to the other Party for any indirect, special, consequential, or punitive damages of any kind whatsoever, whether in contract, tort or strict liability.
+
+7.3 The Indemnifying Party's obligation to indemnify under this Section 7 shall survive termination of this Agreement, and shall not be limited in any way by any limitation on the amount or type of damages, compensation or benefits payable by or for the Indemnifying Party under any statutory scheme, including, without limitation, under any Worker’s Compensation Acts, Disability Benefit Acts or other Employee Benefit Acts.
+
+Section 8: Assignment and Delegation
+8.1 Neither Party to this Agreement shall assign any of its rights or obligations under this Agreement, except with the prior written consent of the other Party, which consent shall not be unreasonably withheld or delayed. No assignment of this Agreement shall relieve the assigning Party of any of its obligations under this Agreement until such obligations have been assumed by the assignee. When duly assigned in accordance with the foregoing, this Agreement shall be binding upon and shall inure to the benefit of the assignee and the assignor shall be relieved of its rights and obligations. Any assignment in violation of this Section 8 shall be void.
+
+8.2 Notwithstanding the provisions of this Section 8, either Party may subcontract its duties under this Agreement to a subcontractor, provided that the subcontracting Party shall remain fully responsible as a principal and not as a guarantor for performance of any subcontracted duties, shall serve as the point of contact between its subcontractor and the other Party, and shall provide the other Party with thirty (30) calendar days’ prior written notice of any such subcontracting, which notice shall include such information about the subcontractor as the other Party shall reasonably require, and provided further that each Party may subcontract its obligation to provide Metering or Meter Reading Services under this Agreement only to subcontractors who have complied with all certification or registration requirements described in applicable law, CPUC rules and PG&E’s direct access tariff. If either Party subcontracts any of its duties hereunder, it shall cause its subcontractors to perform in a manner which is in conformity with that Party’s obligations under this Agreement.
+
+Section 9: Independent Contractors
+Each Party shall perform its obligations under this Agreement (including any obligations performed by a Party’s designees as permitted under Section 8 of this Agreement) as an independent contractor.
+
+Section 10: Entire Agreement
+This Agreement consists of, in its entirety, this Electric Service Provider Service Agreement and all attachments hereto, all Direct Access Service Requests submitted pursuant to this Agreement and PG&E’s direct access tariff. This Agreement supersedes all other agreements or understandings, written or oral, between the Parties related to the subject matter hereof. This Agreement may be modified from time to time only by an instrument in writing, signed by both Parties.
+
+Section 11: Nondisclosure
+11.1 Neither Party may disclose any Confidential Information obtained pursuant to this Agreement to any third party, including affiliates of such Party, without the express prior written consent of the other Party. As used herein, the term “Confidential Information” shall include, but not be limited to, all business, financial, and commercial information pertaining to the Parties, customers of either or both Parties, suppliers for either Party, personnel of either Party, any trade secrets, and other information of a similar nature, whether written or in intangible form that is marked proprietary or confidential with the appropriate owner’s name.
+
+Confidential Information shall not include information known to either Party prior to obtaining the same from the other Party, information in the public domain, or information obtained by a Party from a third party who did not, directly or indirectly, receive the same from the other Party to this Agreement or from a party who was under an obligation of confidentiality to the other Party to this Agreement or information developed by either Party independent of any Confidential Information.
+
+The receiving Party shall use the higher of the standard of care that the receiving Party uses to preserve its own confidential information or a reasonable standard of care to prevent unauthorized use or disclosure of such Confidential Information. Each receiving Party shall, upon termination of this Agreement or at any time upon the request of the disclosing Party, promptly return or destroy all Confidential Information of the disclosing Party then in its possession.
+
+11.2 Notwithstanding the preceding, Confidential Information may be disclosed to any governmental, judicial or regulatory authority requiring such Confidential Information pursuant to any applicable law, regulation, ruling, or order, provided that:
+(a) such Confidential Information is submitted under any applicable provision, if any, for confidential treatment by such governmental, judicial or regulatory authority; and
+(b) prior to such disclosure, the other Party is given prompt notice of the disclosure requirement so that it may take whatever action it deems appropriate, including intervention in any proceeding and the seeking of any injunction to prohibit such disclosure.
+
+Section 12: Enforceability
+If any provision of this Agreement or the application thereof, is to any extent held invalid or unenforceable, the remainder of this Agreement and the application thereof, other than those provisions which have been held invalid or unenforceable, shall not be affected and shall continue in full force and effect and shall be enforceable to the fullest extent permitted by law or in equity.
+
+Section 13: Notices
+13.1 Except as otherwise provided in this Agreement, any notices under this Agreement shall be in writing and shall be effective upon delivery if delivered by:
+(a) hand;
+(b) U.S. Mail, first class postage pre-paid; or
+(c) facsimile, with confirmation of receipt to the Parties as follows:
+
+If the notice is to ESP:
+
+Contact Name:
+
+Business Address:
+
+Facsimile:
+
+If the notice is to PG&E:
+
+Contact Name:
+
+Business Address:
+
+13.2 Each Party shall be entitled to specify as its proper address any other address in the United States upon written notice to the other Party.
+
+13.3 Each Party shall designate on Attachment A the person(s) to be contacted with respect to specific operational matters relating to Direct Access service. Each Party shall be entitled to specify any change to such person(s) upon written notice to the other Party.
+
+Section 14: Time of Essence
+The Parties expressly agree that time is of the essence for all portions of this Agreement.
+
+Section 15: Dispute Resolution
+15.1 The form of this Agreement has been filed with and approved by the CPUC as part of PG&E’s applicable tariffs.
+Except as provided in Section 15.2 and 15.3, any dispute arising between the Parties relating to interpretation of the provisions of this Agreement or to the performance of PG&E’s obligations hereunder (including the performance of Billing Services, Metering Services and MDMA Services by PG&E) shall be reduced to writing and referred to the Parties’ representatives identified on Attachment A for resolution.
+Should such a dispute arise, the Parties shall be required to meet and confer in an effort to resolve their dispute.
+Pending resolution, the Parties shall proceed diligently with the performance of their respective obligations under this Agreement, except if this Agreement has been terminated under Section 4.2.
+If the Parties fail to reach an agreement within a reasonable period of time, the matter shall, upon demand of either Party, be submitted to resolution before the CPUC in accordance with the CPUC’s rules, regulations and procedures applicable to resolution of such disputes.
+
+15.2 Any dispute arising between the Parties relating to interpretation of the provisions of this Agreement or to the performance of the ESP’s obligations hereunder (including the performance of Billing Services, Metering Services and MDMA Services by the ESP) shall be reduced to writing and referred to the Parties’ representatives identified on Attachment A for resolution.
+Should such a dispute arise, the Parties shall be required to meet and confer in an effort to resolve their dispute. Pending resolution, the Parties shall proceed diligently with the performance of their respective obligations under this Agreement, except if this Agreement has been terminated under Section 4.2. If the Parties fail to reach an agreement within a reasonable period of time, the Parties may mutually agree to pursue mediation or arbitration to resolve such issues.
+
+15.3 Notwithstanding the provisions of Paragraph 15.1 and 15.2 above:
+
+(a) all disputes between the Parties relating to the payment by the ESP of any PG&E fees or charges shall be subject to the provisions of PG&E’s applicable tariffs governing disputes over customer bills;
+
+(b) all disputes between the Parties regarding Competition Transition Charges payable by direct access customers or the ESP on behalf of such customers shall be subject to the provisions of PG&E’s applicable tariffs; and
+
+(c) PG&E may pursue available remedies for unauthorized electrical use by the ESP in a court of competent jurisdiction.
+
+15.4 If the dispute involves a request for damages, Parties are notified that the Commission has no authority to award damages. To resolve such issues, the Parties may mutually agree to pursue mediation or arbitration to resolve such issues, or if no agreement is reached, to pursue other legal remedies that are available to the Parties.
+
+Section 16: Applicable Law and Venue
+This Agreement shall be interpreted, governed by and construed in accordance with the laws of the State of California, and shall exclude any choice of law rules that direct the application of the laws of another jurisdiction, irrespective of the place of execution or of the order in which the signatures of the Parties are affixed or of the place or places of performance.
+Except for matters and disputes with respect to which the CPUC is the initial proper venue for dispute resolution pursuant to applicable law or this Agreement, the federal and state courts located in San Francisco County, California shall constitute the sole proper venue for resolution of any matter or dispute hereunder, and the Parties submit to the exclusive jurisdiction of such courts with respect to such matters and disputes.
+
+Section 17: Force Majeure
+Neither Party shall be liable for any delay or failure in the performance of any part of this Agreement (other than obligations to pay money) due to any event of force majeure or other cause beyond its reasonable control, including but not limited to, unusually severe weather, flood, fire, lightning, epidemic, quarantine restriction, war, sabotage, act of a public enemy, earthquake, insurrection, riot, civil disturbance, strike, work stoppage caused by jurisdictional and similar disputes, restraint by court order or public authority, or action or non-action by or inability to obtain authorization or approval from any governmental authority, or any combination of these causes, which by the exercise of due diligence and foresight such Party could not reasonably have been expected to avoid and which by the exercise of due diligence is unable to overcome.
+
+It is agreed that upon the Party so affected giving written notice and reasonably full particulars of such force majeure to the other Party within a reasonable time after the cause relied on, then the obligations of the Party, so far as they are affected by the event of force majeure, shall be suspended during the continuation of such inability and circumstance and shall, so far as possible, be remedied with all reasonable dispatch.
+
+In the event of force majeure, as described herein, both Parties shall take all reasonable steps to comply with this Agreement and PG&E’s applicable tariffs despite occurrence of a force majeure event.
+
+Section 18: Unauthorized Use of Energy (Energy Theft)
+18.1 The ESP represents and warrants that for each of its Customers, and at all times during which it provides Direct Access services as an Electric Service Provider, the ESP shall completely, accurately, and in a timely manner account for each of its Customer's loads with a duly authorized Scheduling Coordinator. Load data not accounted for in this manner may provide grounds for termination of this Agreement. For verification purposes only, PG&E shall have complete access to the identity of the Scheduling Coordinator and the load data provided to it by the ESP. Such information is to remain confidential, and shall not be disclosed to any unauthorized person.
+
+18.2 PG&E shall notify the ESP immediately and the ESP shall notify PG&E immediately of any suspected unauthorized energy use. The Parties agree to preserve any evidence of unauthorized energy use. Once unauthorized energy use is suspected, PG&E, in its sole discretion, may take any or all of the actions permitted under PG&E's applicable tariffs.
+
+Section 19: Not a Joint Venture
+Unless specifically stated in this Agreement to be otherwise, the duties, obligations, and liabilities of the Parties are intended to be several and not joint or collective. Nothing contained in this Agreement shall ever be construed to create an association, trust, partnership or joint venture or to impose a trust or partnership duty, obligation, or liability on or with regard to either Party. Each Party shall be liable individually and severally for its own obligations under this Agreement.
+
+Section 20: Conflicts Between this Agreement and PG&E’s Direct Access Tariff
+Should a conflict exist or develop between the provisions of this Agreement and PG&E’s direct access tariff, as approved by the CPUC, the provisions of PG&E’s direct access tariff shall prevail.
+
+Section 21: Amendments or Modifications
+21.1 Except as provided in Section 21.2, no amendment or modification shall be made to this Agreement, in whole or in part, except by an instrument in writing executed by authorized representatives of the Parties, and no amendment or modification shall be made by course of performance, course of dealing or usage of trade.
+
+21.2 This Agreement may be subject to such changes or modifications as the CPUC may from time to time direct or necessitate in the exercise of its jurisdiction, and the Parties may amend the Agreement to conform to changes directed or necessitated by the CPUC. In the event the Parties are unable to agree on the required changes or modifications to this Agreement, their dispute shall be resolved in accordance with the provisions of Section 15 hereof or, in the alternative, ESP may elect to terminate this Agreement upon written notice to PG&E, which shall be effective upon the receipt thereof. PG&E retains the right to unilaterally file with the CPUC, pursuant to the CPUC's rules and regulations, an application for a change in PG&E's rates, charges, classification, service or rules, or any agreement relating thereto.
+
+Section 22: Billing Options Offered to End-Use Customers by ESP
+Check which billing options (as described in PG&E’s direct access tariff) ESP intends to provide its Customers under this Agreement.
+
+☐ Consolidated Billing by PG&E
+
+☐ Consolidated Billing by the ESP
+
+If ESP is selecting this billing option:
+
+(a) ESP must submit a credit application on the form supplied by PG&E; and
+
+(b) the only method for notifying ESP of PG&E charges will be electronic.
+
+☐ Separate PG&E and ESP Bills
+
+ESP may change these elections from time to time in compliance with the relevant direct access tariff upon prior written notice to PG&E.
+The Direct Access Service Request (DASR) for each Direct Access customer will specify which billing option will apply to that customer.
+If ESP specifies in any DASR any billing option that has not been checked above, the DASR will be rejected.
+
+Section 23: Meter Options Offered to End-Use Customers by ESP
+Check which meter options (as described in PG&E's direct access tariff) ESP will offer for some or all of its Customers served under this Agreement.
+
+☐ ESP will provide Hourly Meters
+
+☐ ESP will offer Hourly Meter Installation Services
+
+☐ ESP will offer Hourly Meter Reading Services
+
+ESP may change these elections from time to time in compliance with PG&E’s direct access tariff upon prior written notice to PG&E.
+The Direct Access Service Request (DASR) for each Direct Access customer will specify which metering option will apply to that Customer.
+If ESP specifies in any Direct Access Service Request any metering option that has not been checked above, the DASR will be rejected.
+
+Section 24: Audits
+24.1 PG&E and the ESP shall each retain such specific records as may be required to support the accuracy of meter data provided in their respective consolidated billings.
+When either Party reasonably believes that errors related to metering or billing activity may have occurred, a Party may request the production of such documents as may be required to verify the accuracy of such metering and consolidated billing.
+Such documents shall be provided within ten (10) business days of such request.
+In the event the requesting Party, upon review of such documents, continues to believe that the other Party’s duty to accurately meter and provide consolidated billing for usage has been breached, the requesting Party may direct that an audit be conducted.
+PG&E and the ESP shall designate their own employee representative or their contracted representative to audit the other party’s records.
+
+24.2 Any such audit shall be undertaken at reasonable times without interference with the audited Party's business operations and in compliance with the audited Party's security procedures. PG&E and the ESP agree to cooperate fully with any such audit.
+
+24.3 Specific records to support the accuracy of meter data provided in the consolidated billings may require examination of billing and metering support documentation maintained by subcontractors. PG&E and the ESP shall include a similar clause in their agreements with their subcontractors reserving the right to designate their own employee representative, or their contracted representative to audit records related to consolidated billing to Direct Access Customers.
+
+24.4 The auditing Party will notify the audited Party in writing of any exception taken as a result of an audit.
+The audited Party shall refund the amount of any undisputed exception to the auditing Party within ten (10) days.
+If the audited Party fails to make such payment, the audited Party agrees to pay interest, accruing monthly, at a rate equal to the prime rate plus two percent (2%) of Bank of America NT&SA, San Francisco, or any successor institution, in effect from time to time, but not to exceed the maximum contract rate permitted by the applicable usury laws of the State of California.
+Interest will be computed from the date of written notification of exceptions to the date the audited Party reimburses the auditing Party for any exception.
+The cost of such audit shall be paid by the auditing Party; provided, however, that in the event an audit verifies overcharges of five percent (5%) or more, then the audited Party shall reimburse the auditing Party for the cost of the audit.
+
+24.5 This right to audit shall extend for a period of three (3) years following the date of final payment under this Agreement. Each party and each subcontractor shall retain all necessary records and documentation for the entire length of this audit period.
+
+Section 25: Miscellaneous
+25.1 Unless otherwise stated in this Agreement:
+
+(a) any reference in this Agreement to a section, subsection, attachment or similar term refers to the provisions of this Agreement;
+
+(b) a reference to a section includes that section and all its subsections; and
+
+(c) the words “include,” “includes,” and “including” when used in this Agreement shall be deemed in each case to be followed by the words “without limitation.”
+The Parties agree that the normal rule of construction to the effect that any ambiguities are to be resolved against the drafting Party shall not be employed in the interpretation of this Agreement.
+
+25.2 The provisions of this Agreement are for the benefit of the Parties and not for any other person or third party beneficiary.
+The provisions of this Agreement shall not impart rights enforceable by any person, firm or organization other than a Party or a successor or assignee of a Party to this Agreement.
+
+25.3 The descriptive headings of the various sections of this Agreement have been inserted for convenience of reference only and shall in no way define, modify or restrict any of the terms and provisions thereof.
+
+25.4 Any waiver at any time by either Party of its rights with respect to a default under this Agreement, or with respect to any other matter arising in connection with this Agreement, shall not be deemed a waiver with respect to any other or subsequent default or matter and no waiver shall be considered effective unless in writing.
+
+25.5 Each Party shall be responsible for paying its own attorneys’ fees and other costs associated with this Agreement, except as provided in Sections 6 and 7 hereof.
+If a dispute exists hereunder, the prevailing Party, as determined by the CPUC, or as may otherwise be determined by the dispute resolution procedure contained in Section 15 hereof, if used, or by a court of law, shall be entitled to reasonable attorneys’ fees and costs.
+
+25.6 To the extent that the CPUC has a right under then-current law to audit either Party’s compliance with this Agreement or other legal or regulatory requirements pertaining to Direct Access transactions that Party shall cooperate with such audits.
+Nothing in this Section shall be construed as an admission by either Party with respect to the right of the CPUC to conduct such audits or the scope thereof.
+
+25.7 Except as otherwise provided in this Agreement, all rights of termination, cancellation or other remedies in this Agreement are cumulative. Use of any remedy shall not preclude any other remedy in this Agreement.
+
+ATTACHMENT A
+Form No. 79-948, Attachment A
+Advice 4350-G/6050-E
+February 2021
+
+A. Definitions:
+Billing Services – The consolidated billing services described in PG&E’s direct access tariff which are provided by PG&E and/or ESP.
+
+Consolidated ESP Bill – The consolidated bill prepared and presented by ESP to an end-use customer which includes the customer's ESP Charges and PG&E Charges.
+
+Consolidated PG&E Bill – The consolidated bill prepared and presented by PG&E to an end-use customer which includes the Customer's ESP Charges and PG&E Charges.
+
+Direct Access Customer – An end-use customer located within PG&E's service territory who purchases Direct Access Services through the ESP.
+
+ESP Charges – Charges for Direct Access Services provided by the ESP.
+
+Metering Services – The meter installation, maintenance and related services described in PG&E’s direct access tariff which are provided by PG&E and/or ESP.
+
+Meter Reading Services – The meter reading and related services described in PG&E’s direct access tariff which are provided by PG&E and/or ESP.
+
+PG&E Charges – Charges:
+
+(a) for services provided by PG&E; or
+
+(b) which are energy-related and which are approved by the CPUC or the Federal Energy Regulatory Commission (including any Competition Transition Charges or Fixed Transition Amount Charges owing to PG&E or its affiliates, as those terms are defined under the California Public Utilities Code).
+Fixed Transition Amount Charges are also referred to as Trust Transfer Amount (TTA) Charges.
+
+B. Contact Persons (Section 13.3):
+1. Billing Services
+PG&E Contact: ___________________________
+
+ESP Contact: ___________________________
+
+2. Metering and Meter Reading Services
+PG&E Contact: ___________________________
+
+ESP Contact: ___________________________
+
+C. Parties’ Representatives (Section 15.1):
+PG&E Representative:
+Contact Name: ___________________________
+
+Business Address:
+
+ESP Representative:
+Contact Name: ___________________________
+
+Business Address:
+
+
