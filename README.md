@@ -18,8 +18,10 @@
 
 ##  Architecture
 
+<div align="center">
+```text
 [ React Frontend (S3) ]
-⇅ WebSocket
+          ⇅ WebSocket
 [ API Gateway (WebSocket) ]
 ⇅
 [ WebSocketHandler (ZIP Lambda) ]
@@ -32,9 +34,12 @@
 [ Qdrant Vector DB (on EC2) ] + [ FAISS Index ]
 ⇓
 [ GPT Response (streamed token-by-token via WebSocket) ]
+```
 
 ##  Project Structure (Key Parts)
 ```text
+</div>
+
 energycopilot/
 ├── chat-ui/                  # Frontend React + Vite application
 │   ├── src/
