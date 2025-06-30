@@ -18,7 +18,7 @@
 
 ##  Architecture
 ```text
-                        [ React Frontend (S3) ]
+                        [ React Frontend (S3) + Cloudfront ]
                                   ⇅ WebSocket
                         [ API Gateway (WebSocket) ]
                                   ⇅
@@ -26,7 +26,7 @@
                                   ⇓
                         [ Question Queue (SQS) ]
                                   ⇓
-                        [ RAG Inference (Container Lambda) ] ⇄  [ Qdrant Vector DB (on EC2) ] + [ FAISS Index ]   
+ [ Event Bridge ]   →   [ RAG Inference (Container Lambda) ] ⇄  [ Qdrant Vector DB (on EC2) ] + [ FAISS Index ]   
                                   ⇅
                         [ GPT Response (streamed token-by-token via WebSocket) ]
 ```
