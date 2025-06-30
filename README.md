@@ -133,7 +133,7 @@ aws s3 sync dist/ s3://your-s3-bucket-name/ --delete
 - Connect to CloudFront and configure a cache policy
 
 ### 3. WebSocket Management (ZIP-based Lambda)
-Handles $connect, $disconnect, and message routes in API Gateway, and sends user messages to SQS. Stores WebSocket connection IDs in DynamoDB.
+Handles $connect, $disconnect, and message routes in API Gateway, and sends user messages to SQS. Stores WebSocket connection IDs in DynamoDB.  
 
 Package the Lambda
 ```bash
@@ -154,7 +154,7 @@ Create a WebSocket API with the following routes, and connect to websocket lambd
 Deploy and note the WebSocket URL
 
 ### 4. Inference Service (Container-based Lambda)
-This Lambda is triggered by SQS, runs the RAG pipeline, and streams the GPT response token-by-token back to the client via WebSocket.
+This Lambda is triggered by SQS, runs the RAG pipeline, and streams the GPT response token-by-token back to the client via WebSocket.  
 
 Build and Push the Docker Image
 ```bash
@@ -165,10 +165,10 @@ Build and Push the Docker Image
 - Enable role-based access to SQS and Socket API Gateway
 
 Configure Trigger
-Add the same SQS queue as an event source trigger to this Lambda
+Add the same SQS queue as an event source trigger to this Lambda  
 
 Configure Warmup event
-Schedule an event on Event Bridge to keep inference service container alive
+Schedule an event on Event Bridge to keep inference service container alive  
 
 ### 5. Qdrant Vector Database (EC2)
 Used as a semantic cache to store and retrieve previous question embeddings.
