@@ -18,8 +18,8 @@
 
 ##  Architecture
 
-<div align="center">
 ```text
+<div align="center">
 [ React Frontend (S3) ]
           ⇅ WebSocket
 [ API Gateway (WebSocket) ]
