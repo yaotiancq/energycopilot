@@ -80,9 +80,9 @@ npm run build
 aws s3 sync dist/ s3://your-s3-bucket-name/ --delete
 ```
 
-Enable static website hosting in S3
-Set index.html as the default root document
-Connect to CloudFront and configure a cache policy
+- Enable static website hosting in S3
+- Set index.html as the default root document
+- Connect to CloudFront and configure a cache policy
 
 ### 2. WebSocket Management (ZIP-based Lambda)
 Handles $connect, $disconnect, and message routes in API Gateway, and sends user messages to SQS. Stores WebSocket connection IDs in DynamoDB.
