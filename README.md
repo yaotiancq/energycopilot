@@ -78,40 +78,30 @@ cd chat-ui
 npm install
 npm run build
 aws s3 sync dist/ s3://your-s3-bucket-name/ --delete
-Notes
+```
+
 Enable static website hosting in S3
-
 Set index.html as the default root document
-
-Optionally connect to CloudFront and configure a cache policy
+Connect to CloudFront and configure a cache policy
 
 2️⃣ WebSocket Management (ZIP-based Lambda)
 Handles $connect, $disconnect, and message routes in API Gateway, and sends user messages to SQS. Stores WebSocket connection IDs in DynamoDB.
 
 Package the Lambda
-bash
-复制
-编辑
+```bash
 cd websocket_lambda
 ./build_websocket_zip.sh
+```
 Deploy
 Create a Lambda function (Python 3.10+)
-
 Upload websocket_handler.zip
-
-Set environment variables:
-
-CONNECTION_TABLE=your-dynamodb-table-name
-
-QUESTION_QUEUE_URL=https://sqs.us-west-1.amazonaws.com/...
+Set environment variables
 
 Configure WebSocket API (API Gateway)
 Create a WebSocket API with the following routes:
 
 $connect → your Lambda function
-
 $disconnect → your Lambda function
-
 message → your Lambda function
 
 Deploy and note the WebSocket URL
@@ -120,24 +110,12 @@ Deploy and note the WebSocket URL
 This Lambda is triggered by SQS, runs the RAG pipeline, and streams the GPT response token-by-token back to the client via WebSocket.
 
 Build and Push the Docker Image
-bash
-复制
-编辑
+```bash
 ./build_and_push.sh
+```
 Deploy
 Create a Lambda function using the pushed ECR container image
-
-Configure environment variables:
-
-WS_API_ENDPOINT=wss://your-websocket-api.execute-api.us-west-1.amazonaws.com/dev
-
-QDRANT_HOST=your-ec2-ip
-
-QDRANT_PORT=6333
-
-LOCAL_MODEL_PATH=/app/local_model
-
-Set timeout (≥ 30s) and memory (1024–2048 MB recommended)
+Configure environment variables
 
 Configure Trigger
 Add the same SQS queue as an event source trigger to this Lambda
@@ -146,18 +124,15 @@ Add the same SQS queue as an event source trigger to this Lambda
 Used as a semantic cache to store and retrieve previous question embeddings.
 
 Deploy on EC2
-bash
-复制
-编辑
+```bash
 docker run -d \
   -p 6333:6333 \
   -v $(pwd)/qdrant_storage:/qdrant/storage \
   qdrant/qdrant
+```
+
 Notes
-Ensure port 6333 is open in your EC2 security group
+Ensure port 6333 is open in EC2 security group
 
-Optionally restrict access to Lambda VPC only
-
-Use a persistent volume to retain vector data across restarts
 
 
