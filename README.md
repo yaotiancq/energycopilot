@@ -46,7 +46,7 @@ Responsibilities:
 This Lambda is deployed as a container to support local models, file-based vector indices, and scalable architecture. It’s well-suited for lightweight model serving and retrieval-based applications.  
 
 
-** AWS Services Used
+## AWS Services Used
 - Lambda – handles WebSocket events and performs model inference (ZIP + container)
 - API Gateway – enables real-time communication with the WebSocket client
 - SQS – queues user questions for async processing
