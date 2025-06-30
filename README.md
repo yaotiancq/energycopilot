@@ -92,17 +92,15 @@ Package the Lambda
 cd websocket_lambda
 ./build_websocket_zip.sh
 ```
-Deploy
-Create a Lambda function (Python 3.10+)
-Upload websocket_handler.zip
-Set environment variables
+- Create a Lambda function (Python 3.10+)
+- Upload websocket_handler.zip
+- Set environment variables
 
 Configure WebSocket API (API Gateway)
-Create a WebSocket API with the following routes:
-
-$connect → your Lambda function
-$disconnect → your Lambda function
-message → your Lambda function
+Create a WebSocket API with the following routes, and connect to websocket lambda:
+- $connect
+- $disconnect
+- message
 
 Deploy and note the WebSocket URL
 
