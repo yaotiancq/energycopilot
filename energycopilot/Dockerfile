@@ -1,7 +1,7 @@
-# ✅ AWS  Python 3.10
+#  AWS  Python 3.10
 FROM public.ecr.aws/lambda/python:3.10
 
-# ✅ swig
+#  swig
 RUN yum install -y swig
 
 COPY requirements.txt .
