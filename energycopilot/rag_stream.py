@@ -2,9 +2,6 @@ import json
 from langchain.callbacks.base import BaseCallbackHandler
 from langchain.callbacks.manager import CallbackManager
 from langchain.chains import RetrievalQA
-# from langchain.prompts import PromptTemplate
-# from langchain_community.vectorstores import FAISS
-# from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_openai import ChatOpenAI
 from qdrant_cache import search_cache, add_to_cache
 from rag_core import get_embedding_model, load_vector_db, get_prompt_template
