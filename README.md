@@ -125,13 +125,6 @@ The frontend is a React + Vite SPA hosted on S3 with optional CloudFront integra
 
 #### Build and Deploy
 
-```bash
-cd chat-ui
-npm install
-npm run build
-aws s3 sync dist/ s3://your-s3-bucket-name/ --delete
-```
-
 - Enable static website hosting in S3
 - Set index.html as the default root document
 - Connect to CloudFront and configure a cache policy
@@ -139,11 +132,6 @@ aws s3 sync dist/ s3://your-s3-bucket-name/ --delete
 ### 3. WebSocket Management (ZIP-based Lambda)
 Handles $connect, $disconnect, and message routes in API Gateway, and sends user messages to SQS. Stores WebSocket connection IDs in DynamoDB.  
 
-Package the Lambda
-```bash
-cd websocket_lambda
-./build_websocket_zip.sh
-```
 - Create a Lambda function (Python 3.10+)
 - Upload websocket_handler.zip
 - Set environment variables
@@ -160,10 +148,6 @@ Deploy and note the WebSocket URL
 ### 4. Inference Service (Container-based Lambda)
 This Lambda is triggered by SQS, runs the RAG pipeline, and streams the GPT response token-by-token back to the client via WebSocket.  
 
-Build and Push the Docker Image
-```bash
-./build_and_push.sh
-```
 - Create a Lambda function using the pushed ECR container image
 - Configure environment variables
 - Enable role-based access to SQS and Socket API Gateway
@@ -177,13 +161,6 @@ Schedule an event on Event Bridge to keep inference service container alive
 ### 5. Qdrant Vector Database (EC2)
 Used as a semantic cache to store and retrieve previous question embeddings.
 
-Deploy on EC2
-```bash
-docker run -d \
-  -p 6333:6333 \
-  -v $(pwd)/qdrant_storage:/qdrant/storage \
-  qdrant/qdrant
-```
 - Ensure port 6333 is open in EC2 security group
 
 
